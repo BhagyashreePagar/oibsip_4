@@ -1,0 +1,93 @@
+/*This to import fonts from a particular folder after downloading that font*/
+@font-face {
+    
+    src: url(fonts/Playball-Regular.ttf);
+    font-family:mea;
+
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.home
+{
+    background: url(./img/1642595828002.jpg) ;
+}
+.all
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0 280px;
+    margin-bottom: 5px;
+    background: linear-gradient(rgb(255, 108, 9),rgba(226, 67, 133, 0.8));
+}
+
+.main-img img 
+{
+   height: 470px;
+   margin-top: 50px;
+   margin-bottom: 18px;
+   border: 10px solid rgb(109, 255, 255);
+
+}
+.main-img img:hover
+{
+    border: 10px solid rgb(255, 213, 174);
+    height: 480px;
+}
+
+.heading h1
+{
+    font-size: 3rem;
+}
+.heading h2
+{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.story
+{
+    max-width:760px;
+    text-align: justify;
+    font-family: mea;
+    font-size: 1.5rem;
+}
+.part
+{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+.awards
+
+{  
+    margin-right: 200px;
+    font-size: 1.2rem;
+}
+.awards h1{font-family: mea; font-size: 2.8rem;}
+.awards ul{
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+.works
+{
+    
+    font-size: 1.2rem;
+}
+.works ul{
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+.works h1{font-family: mea; font-size: 2.8rem;}
+
+
